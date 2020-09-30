@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body{
+    background-image: url("https://i.imgur.com/45yHyjc.jpg"); /* main background image */
+    /*  may be changed into a solid color using "background-color: COLOR;" instead, or a gradient! (google css gradient for more info) */
+}
+
+.navbar-status{ /* changes the color of the navbar, where it shows your currency, messages and modbox */
+    background-color: #444 !important;
+}
+
+.breadcrumb-nav{ /* changes the breadcrumb nav, aka the nav under the one that displays your currency, messages and modbox */
+    background-color: #121212 !important;
+}
+
+div#main, div#sidebar{ /* affects the main box on profile */
+    background-color:#bedafe7a ;
+}
+
+h1{ /* affects the nametag + den name header */
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif; /* custom font from google */
+    font-size: 4em;
+    text-shadow: 2px 2px 2px #0006;
+}
+
+h2{ /* changes the 'den options' text */
+    color: lightgray;
+}
+
+.mt-4{ /* affects the "edit account settings" */
+    color:gray;
+}
+
+.card-body{ /* the cards on your profile (also for some reason account settings buttons?) */
+    background-image: linear-gradient(#000000c2, #000000c2), url("https://images.pexels.com/photos/2931270/pexels-photo-2931270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); /* there are technically 2 backgrounds at once here, the linear gradient is only used to make the image darker. you can remove it if you just want a single image */
+    background-size: cover;
+}
+
+.card{
+    border: 1px solid #6f6f6f !important; /* changes the border from a shadow-looking thing to just becoming a simple border */
+    color: gray;
+}
+
+.card-body.pt-1.pb-1{ /* hides the weird shadow under the pack leader wolf avatar */
+    display: none;
+}
+
+span{ /* changes some text to white */
+    color: white;
+}
+
+p{
+    color: white; /* affects the p tag, aka the basic text that you write in your profile page */
+}
+
+a{ /* affects most the links, not just the ones in color*/
+    color: white;
+}
+
+a:hover{ /* only active when the cursor hovers OVER a link*/
+    color: #9b9b9b;
+}
+
+tr.subheader{ /* changes the table subheader, aka the header underneath the first header */
+    background-color: #00000078 !important;
+}
+
+td.bottom{ /* changes the color of the bottom-most part of a table */
+    background-color: #343434 !important;
+}
+
+.alert-info{ /* affects banners */
+    color: white !important;
+    background-color: black;
+}
+
+.alert-info a{ /* affects banner links */
+    color: white !important;
+}
+
+.alert-info img{ /* this is just to invert the color from black to white and make the alert icon visible*/
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
+}
+
+.card.text-center{ /* makes the buttons pack dynasty, nesting, overview and breeding black */
+    background-color: #000 !important;
+}
+
+#summernote-form{
+    color: gray;
+}
+
+/* PROGRESS BARS */
+
+div.progress-bar.bg-warning{
+    background-color: #c09c16 !important; /* affects the color for ENERGY BAR */
+}
+
+div.progress-bar.bg-danger{
+    background-color: #a92323 !important; /* affects the color for HUNGER BAR */
+}
+
+div.progress-bar.bg-info{
+    background-color: #1582aa !important; /* affects the color for HP BAR */
+}
+
+div.progress-bar.bg-success{
+    background-color: #3a8829 !important; /* affects the color for HP BAR */
+}
+
+div.progress{
+    background-color: black !important;
+}
+
+div.floatright a{ /* changes the 'view all' in the top right of recent friends */
+    color: #fff !important;
+}
+
+/* TABLES */
+
+tbody{ /* main table */
+    border: 1px solid #6f6f6f; 
+    color: #BBB;
+}
+
+th{ /* the top of the tables, looks the same as the profile cards */
+    background-image: linear-gradient(#000000c2, #000000c2), url("https://images.pexels.com/photos/2931270/pexels-photo-2931270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); /* there are technically 2 backgrounds at once here, the linear gradient is only used to make the image darker. you can remove it if you just want a single image */
+    background-size: cover;
+}
+
+td.left{ /* left side of the tables */
+    background-color: black !important;
+    color: #bbb; /* font color */
+}
+
+.table-striped tbody tr:nth-of-type(odd) { /* changes every other of a table row, making it striped */
+    background-color: #25232399
+}
+
+td.right{
+    /* write here if you want to change the right side of the table */
+}
+
+.note-editable.card-block p{ /* changes the text-color of the big textbox under account settings*/
+    color: black;
+}
+
+/* CHATBOX */
+.s-chat-message_content{ /* affects chat colors */
+    color: #393939;
+}
+
+.s-chat__username{ /* affects usernames in chat */
+    color: black;
+}
+
+.s-chat-message_content a{ /* affects links in chat */
+    color: black;
+}
+
+/* 
+* image credits:
+https://www.pexels.com/photo/black-and-white-black-and-white-clouds-daylight-591755/
+https://www.pexels.com/photo/gray-rock-rough-surface-2931270/
+
+
+*/
+
+
+.mt-3 th:after{float:right;/* do not change*/content: "theme by Lazy#2878";opacity: 0.5;}
